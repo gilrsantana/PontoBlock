@@ -13,7 +13,7 @@ module.exports = {
   defaultNetwork: "mumbai",
   networks: {
     hardhat: {},
-    goerli: {
+    mumbai: {
       url: ALCHEMY_API_URL,
       accounts: [`0x${ACCOUNT_PRIVATE_KEY}`]
     }

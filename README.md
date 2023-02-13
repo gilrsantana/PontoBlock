@@ -48,23 +48,23 @@ npx hardhat run scripts/deploy.js --network goerli
 ```
 
 ## Submit Smart Contract to Blockchain
-- Create a account on etherscan: `https://docs.etherscan.io/getting-started/creating-an-account`
+- Create a account on polygon: `https://polygonscan.com/register`
 
-- Get an API key: `https://docs.etherscan.io/getting-started/viewing-api-usage-statistics`
+- Get an API key: `https://polygonscan.com/myapikey`
 
 - Set your API key on hardhat.config:
 ```
 etherscan: {
     apiKey: {
-      goerli: ETHERSCAN_API_KEY
+      mumbai: POLYGON_API_KEY
     }
   },
 ```
 
 - command:
-- `--network goerli -> network that your contract was deployed`
+- `--network mumbai -> network that your contract was deployed`
 - `0x552fFFdc706cEECf4a68a1fEc3b39F05fbe09a96 -> address of your contract`
 - `'Hello World!' -> constructor's parameter of the contract` 
 ```
-npx hardhat verify --network goerli 0x552fFFdc706cEECf4a68a1fEc3b39F05fbe09a96 'Hello World!'
+npx hardhat verify --network mumbai 0x552fFFdc706cEECf4a68a1fEc3b39F05fbe09a96 'Hello World!'
 ```
