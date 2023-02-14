@@ -1,0 +1,189 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/gilmar/Development/PontoBlock/Javascript/PontoBlock/contracts/AdministratorContract.sol": {
+      "lastModificationDate": 1676274313167,
+      "contentHash": "9a45e501020e1a68bf6c193535ab7f28",
+      "sourceName": "contracts/AdministratorContract.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.15"
+      ],
+      "artifacts": [
+        "AdministratorContract"
+      ]
+    },
+    "/home/gilmar/Development/PontoBlock/Javascript/PontoBlock/contracts/EmployeeContract.sol": {
+      "lastModificationDate": 1676274313167,
+      "contentHash": "acd7df5caa05ca67ae111bb40b9529de",
+      "sourceName": "contracts/EmployeeContract.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AdministratorContract.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.15"
+      ],
+      "artifacts": [
+        "EmployeeContract"
+      ]
+    },
+    "/home/gilmar/Development/PontoBlock/Javascript/PontoBlock/contracts/PontoBlockReports.sol": {
+      "lastModificationDate": 1676274313167,
+      "contentHash": "b6e54192f143788f17e0abb65dcbfd7a",
+      "sourceName": "contracts/PontoBlockReports.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./EmployeeContract.sol",
+        "./PontoBlock.sol",
+        "./UtilContract.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.15"
+      ],
+      "artifacts": [
+        "PontoBlockReports"
+      ]
+    },
+    "/home/gilmar/Development/PontoBlock/Javascript/PontoBlock/contracts/PontoBlock.sol": {
+      "lastModificationDate": 1676274313167,
+      "contentHash": "c04107758b246eb0fc04475c03a1332c",
+      "sourceName": "contracts/PontoBlock.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./EmployeeContract.sol",
+        "./UtilContract.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.15"
+      ],
+      "artifacts": [
+        "PontoBlock"
+      ]
+    },
+    "/home/gilmar/Development/PontoBlock/Javascript/PontoBlock/contracts/UtilContract.sol": {
+      "lastModificationDate": 1676274313167,
+      "contentHash": "02a7721bfcf5a229698f36a70999bb93",
+      "sourceName": "contracts/UtilContract.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.15"
+      ],
+      "artifacts": [
+        "UtilContract"
+      ]
+    }
+  }
+}

@@ -35,13 +35,17 @@ npx hardhat
 - PRIVATE_KEY=PRIVATE KEY OF YOUR ACCOUNT ON METAMASK, OR OTHER WALLET (without double quotes)
 - CONTRACT_ADDRESS="THE ADDRESS OF YOUR DEPLOYED CONTRACT"
 
-## Deploy Smart Contract
-- Create a scripts folder
-- Create a `deploy.js` file
-- Compile the contract:
+## Compile Smart Contract
+- Command:
 ```
 npx hardhat compile
 ```
+- Will be created chache and artifacts folders.
+
+## Deploy Smart Contract
+- Create a scripts folder
+- Create a `deploy.js` file
+- If the contracts are not compiled, they will be automatically compiled.
 - Deploy the contract at network
 ```
 npx hardhat run scripts/deploy.js --network goerli
